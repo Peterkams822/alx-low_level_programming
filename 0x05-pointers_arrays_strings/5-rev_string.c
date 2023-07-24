@@ -14,7 +14,7 @@ void rev_string(char *s)
 	char temp;
 
 	/*find string length without null chart*/
-	for (l = 0; s[i] != '\0'; ++l)
+	for (l = 0; s[l] != '\0'; ++l)
 		;
 
 	/*swap the string by looping to half he string*/
