@@ -5,7 +5,7 @@
  * @s: pointer to put the constanr
  * @b: constant
  * @n: max bytes to use
- * return: pointer s
+ * Return: pointer s
 */
 
 char *_memset(char *s, char b, unsigned int n)
