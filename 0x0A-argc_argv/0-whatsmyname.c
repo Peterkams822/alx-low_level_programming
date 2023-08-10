@@ -9,7 +9,7 @@
 
 int main(int argc, char const *argv[])
 {
-	(voic)argc;
-	printf("%\n", argv[0]);
+	(void)argc;
+	printf("%s\n", argv[0]);
 	return (0);
 }
